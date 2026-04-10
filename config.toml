@@ -19,20 +19,16 @@ taxonomies = [
 
 # Code highlighting
 [markdown]
-highlight_code = true
-highlight_theme = "boron"
+
+[markdown.highlighting]
+theme = "vesper"
 
 [extra]
 
 # One of: blue, green, orange, pink, red.
-# Defaults to blue.
-# Append -light for light themes, e.g. blue-light
-# Or append -auto, e.g. blue-auto
 accent_color = "orange"
 
 # One of: blue, dark, green, orange, pink, red, light, auto
-# Enabling dark background will also modify primary font color to be darker.
-# Defaults to accent color (or, if not accent color specified, to blue).
 background_color = "dark"
 
 # The logo text - defaults to "Terminimal theme"
@@ -48,21 +44,15 @@ author = "oraqlle"
 
 # Copyright text in HTML format. If specified,
 # entirely replaces default copyright and author.
-copyright_html = "oraqlle&nbsp;<b>copyright</b>"
+copyright_html = "oraqlle&nbsp;<b>copyright 2026</b>"
 
-# menu is enabled by adding menu_items (optional)
 menu_items = [
-    # each of these is optional, name and url are required
-    # $BASE_URL is going to be substituted by base_url from configuration
     {name = "blog", url = "$BASE_URL"},
-
-    # tags should only be enabled if you have "tags" taxonomy
-    # see documentation below for more details
     {name = "tags", url = "$BASE_URL/tags"},
     {name = "archive", url = "$BASE_URL/archive"},
     {name = "about me", url = "$BASE_URL/about"},
 
-    # set newtab to true to make the link open in new tab
+    {name = "codeberg", url = "https://codeberg.org/oraqlle", newtab = true},
     {name = "github", url = "https://github.com/oraqlle", newtab = true},
 ]
 
@@ -70,20 +60,10 @@ menu_items = [
 # on each post page (defaults to true).
 enable_post_view_navigation = true
 
-# The text shown at the bottom of a post,
-# before earlier/later post links.
-# Defaults to "Thanks for reading! Read other posts?"
 post_view_navigation_prompt = "Thanks for reading! Read other posts?"
 
-# Use full Hack character set, not just a subset.
-# Switch this to true if you need full unicode support.
-# Defaults to false.
 use_full_hack_font = false
 
-# Optional: Global favicon URL and mimetype.
-#           Mimetype defaults to "image/x-icon".
-#           The URL should point at a file located
-#           in your site's "static" directory.
 favicon = "/favicon.ico"
 favicon_mimetype = "image/ico"
 
@@ -97,8 +77,3 @@ favicon_mimetype = "image/ico"
 #
 # Note that the main (index) page only has the main title.
 page_titles = "main_only"
-
-# Optional: default image to use for OpenGraph.
-#           If the page doesnt set og_image, use this one as fallback. Usefull
-#           for indexes and taxonomies' pages.
-#default_og_image = "static/ocean.jpg"

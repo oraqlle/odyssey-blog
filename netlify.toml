@@ -4,7 +4,7 @@ command = "zola build"
 
 [build.environment]
 # Set the version name that you want to use and Netlify will automatically use it.
-ZOLA_VERSION = "0.20.0"
+ZOLA_VERSION = "0.22.1"
 
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
