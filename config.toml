@@ -1,79 +1,77 @@
-# Be sure to change these!
 base_url = "https://a-programming-odyssey.netlify.app"
 title = "A Programming Odyssey"
 
-# Sass compilation is required
-compile_sass = true
+theme = "zap"
 
-# The theme supports feeds (RSS and ATOM)
-generate_feeds = true
+compile_sass = false
+default_language = "en"
 
 # Use `rss.xml` for RSS feeds and `atom.xml` for ATOM.
+generate_feeds = true
 feed_filenames = ["rss.xml", "atom.xml"]
 
-# Optional: enable tags
 taxonomies = [
     {name = "tags"},
     {name = "categories"}
 ]
 
-# Code highlighting
+[search]
+index_format = "fuse_javascript"
+
 [markdown]
 
 [markdown.highlighting]
 theme = "vesper"
 
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
 [extra]
-
-# One of: blue, green, orange, pink, red.
-accent_color = "orange"
-
-# One of: blue, dark, green, orange, pink, red, light, auto
-background_color = "dark"
-
-# The logo text - defaults to "Terminimal theme"
-logo_text = "A Programming Odyssey"
-
-# The logo link - defaults to base_url.
-#logo_home_link = "about"
-
-# Author name: when specified, modifies the default
-# copyright text. Apart from author, it will
-# contain current year and a link to the theme.
+keywords = "blog, tech, privacy"
 author = "oraqlle"
-
-# Copyright text in HTML format. If specified,
-# entirely replaces default copyright and author.
-copyright_html = "oraqlle&nbsp;<b>copyright 2026</b>"
-
-menu_items = [
-    {name = "blog", url = "$BASE_URL"},
-    {name = "tags", url = "$BASE_URL/tags"},
-    {name = "archive", url = "$BASE_URL/archive"},
-    {name = "about me", url = "$BASE_URL/about"},
-
-    {name = "codeberg", url = "https://codeberg.org/oraqlle", newtab = true},
-    {name = "github", url = "https://github.com/oraqlle", newtab = true},
-]
-
-# Whether to show links to earlier and later (aka. higher/lower) posts
-# on each post page (defaults to true).
-enable_post_view_navigation = true
-
-post_view_navigation_prompt = "Thanks for reading! Read other posts?"
-
-use_full_hack_font = false
 
 favicon = "/favicon.ico"
 favicon_mimetype = "image/ico"
 
-# Optional: Set how <title> elements are rendered.
-# Values:
-# - "main_only" -- only the main title (`config.title`) is rendered.
-# - "page_only" -- only the page title (if defined) is rendered,
-#                  falling back to `config.title` if not defined or empty.
-# - "combined" -- combine like so: "page_title | main_title",
-#                 or if page_title is not defined or empty, fall back to `main_title`
-#
-# Note that the main (index) page only has the main title.
-page_titles = "main_only"
+inline_icons = true
+icon_path = "static/icons/"
+icons = [
+  "home",
+  "chat",
+  "color-palette",
+  "idea",
+  "search",
+  "light",
+  "asleep",
+  "rss",
+]
+
+# Search page path
+search_path = "$BASE_URL/search/"
+
+image_resizing_disabled = false
+image_format = "auto"
+image_quality = 80
+images_default_size = 1024
+images_sizes = [512, 1024, 2048]
+
+thumbnail_quality = 70
+thumbnail_default_size = 256
+thumbnail_sizes = [128, 256]
+
+menu_links = [
+    { name = "home", url = "$BASE_URL", icon = "home.svg" },
+    { name = "blog", url = "$BASE_URL/posts/", icon = "chat.svg" },
+    { name = "gallery", url = "$BASE_URL/gallery/", icon = "color-palette.svg" },
+    { name = "tags", url = "$BASE_URL/tags/", icon = "idea.svg"},
+    #{ name = "archive", url = "$BASE_URL/archive" },
+    { name = "about me", url = "$BASE_URL/about" },
+    { name = "codeberg", url = "https://codeberg.org/oraqlle", newtab = true },
+    { name = "github", url = "https://github.com/oraqlle", newtab = true },
+]
+
+enable_post_view_navigation = true
+
+post_view_navigation_prompt = "Thanks for reading! Read other posts?"
