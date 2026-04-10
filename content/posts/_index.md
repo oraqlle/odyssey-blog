@@ -24,8 +24,12 @@ I have these notes somewhere but they are not organised
 * What I want this site to become
 * The small web
  * no js (need to change part of this sites source template)
+ * Relays of websites (websites that link other sites together)
  * Secure services
  * Linux + BSD
+ * de-googling
+ * moving to codeberg
  * Private messaging exchange
 * Thoughts on current "digital potection laws"
-* Why I ike vim
+* Why I like (neo)vim (motions)
+* Game Engine devlog
