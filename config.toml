@@ -64,10 +64,11 @@ thumbnail_sizes = [128, 256]
 menu_links = [
     { name = "home", url = "$BASE_URL", icon = "home.svg" },
     { name = "blog", url = "$BASE_URL/posts/", icon = "chat.svg" },
-    { name = "gallery", url = "$BASE_URL/gallery/", icon = "color-palette.svg" },
+    { name = "projects", url = "$BASE_URL/gallery/", icon = "color-palette.svg" },
     { name = "tags", url = "$BASE_URL/tags/", icon = "idea.svg"},
+    #{ name = "Search", url = "$BASE_URL/search/", icon = "search.svg" },
     #{ name = "archive", url = "$BASE_URL/archive" },
-    { name = "about me", url = "$BASE_URL/about" },
+    { name = "faq", url = "$BASE_URL/faq" },
     { name = "codeberg", url = "https://codeberg.org/oraqlle", newtab = true },
     { name = "github", url = "https://github.com/oraqlle", newtab = true },
 ]

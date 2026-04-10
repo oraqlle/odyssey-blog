@@ -1,0 +1,31 @@
++++
+title = "2048"
+description = "Terminal based 2048 game in various languages."
+date = 2023-06-22
+draft = false
+
+[taxonomies]
+tags = ["rust", "elixir"]
+
+[extra]
+lead = "Terminal based 2048 game in various languages."
+toc = true
+top = false
+#images = ["4.png"]
++++
+
+Terminal based version of 2048 implemented in various languages.
+
+- [GitHub](https://github.com/oraqlle/2048)
+
+
+## Implemented Languages
+
+- Rust
+- Elixir
+
+## Planned Languages
+
+- Zig
+- C++
+- C
