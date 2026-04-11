@@ -27,6 +27,7 @@ theme = "vesper"
 paths = "on"
 taxonomies = "on"
 anchors = "on"
+paths_keep_dates = false
 
 [extra]
 keywords = "blog, tech, privacy"

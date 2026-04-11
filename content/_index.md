@@ -11,6 +11,6 @@ images = []
 
 Thoughts and the work of some guy on the internet.
 
-## Featured
-
-More to come! (I'm just making this man)
+> Note: Currently porting notes and stuff I wrote over the years from many different
+> sources and from the old version of this site. More still to come and more future work
+> is in progress as well.
