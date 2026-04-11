@@ -64,7 +64,7 @@ thumbnail_sizes = [128, 256]
 
 menu_links = [
     { name = "home", url = "$BASE_URL", icon = "home.svg" },
-    { name = "blog", url = "$BASE_URL/posts/", icon = "chat.svg" },
+    { name = "posts", url = "$BASE_URL/posts/", icon = "chat.svg" },
     { name = "projects", url = "$BASE_URL/gallery/", icon = "color-palette.svg" },
     { name = "tags", url = "$BASE_URL/tags/", icon = "idea.svg"},
     #{ name = "Search", url = "$BASE_URL/search/", icon = "search.svg" },
