@@ -20,9 +20,11 @@
 
           <div>
             <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+
             {% if post.draft %} 
                (Draft)
             {% endif %}
+
             :: {{ hooks::posts_below_title(page=post) }}
           </div>
         </li>

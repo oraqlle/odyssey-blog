@@ -30,7 +30,7 @@ anchors = "on"
 paths_keep_dates = false
 
 [extra]
-keywords = "blog, tech, privacy"
+keywords = "blog, software, game development, privacy"
 author = "oraqlle"
 
 favicon = "/favicon.ico"
@@ -65,7 +65,7 @@ thumbnail_sizes = [128, 256]
 menu_links = [
     { name = "home", url = "$BASE_URL", icon = "home.svg" },
     { name = "posts", url = "$BASE_URL/posts/", icon = "chat.svg" },
-    { name = "projects", url = "$BASE_URL/gallery/", icon = "color-palette.svg" },
+    { name = "projects", url = "$BASE_URL/projects/", icon = "color-palette.svg" },
     { name = "tags", url = "$BASE_URL/tags/", icon = "idea.svg"},
     #{ name = "Search", url = "$BASE_URL/search/", icon = "search.svg" },
     #{ name = "archive", url = "$BASE_URL/archive" },

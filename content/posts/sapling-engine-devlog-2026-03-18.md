@@ -10,7 +10,7 @@ tags= ["game-dev", "graphics", "memory", "Sapling Game Engine Devlogs"]
 > polymorphism which might not scale well so I want to explore using Curiously Recurring
 > Template Pattern (CRTP) to enable static polymorphism.
 >
-> Considering how to distribute subsystems to best suit the need of downstream games.
+> I am considering how to distribute subsystems to best suit the need of downstream games.
 > Current considerations are either;
 >
 > * Distribute modules of a subsystem as standalone libraries (shared by default), with

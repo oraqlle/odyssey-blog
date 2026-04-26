@@ -1,6 +1,7 @@
 +++
 title = "Fine-Grained Access Semantics for Program Memory"
 date = 2025-10-11
+
 [taxonomies]
 tags= ["thoughts", "language-design", "programming", "memory",
 "Fine-Grained Access Semantics for Program Memory"]

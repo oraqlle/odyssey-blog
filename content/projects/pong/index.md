@@ -1,25 +1,28 @@
 +++
-title = "Pong"
-description = "Pong"
+title = "Pong Clone"
+description = " Built using SFML and my own Crank Framework"
 date = 2023-03-17
-updated = 2023-06-25
+updated = 2026-04-26
 draft = false
 
 [taxonomies]
 tags = ["cpp", "game-dev"]
 
 [extra]
-lead = "Pong built with C++, SFML and Crank."
-toc = true
-top = false
 images = ["main-game.png", "start-screen.png", "main-game-start.png", "pause-menu.png", "control-menu.png"]
+archived = true
+source = "https://github.com/oraqlle/pong-broken"
 +++
 
-Simple Pong game written in C++ using SFML, Crank and built using Meson. This project is
-pretty hacky and mostly serves as a project to test the usage of the Crank state
-framework.
+Pong clone written in C++ using SFML and [Crank](/projects/crank).
+It was primarily built to test Crank, a simple state machine for small video games.
+It is built using a new build tool called [bpt](https://github.com/vector-of-bool/bpt).
+
+> Edit (26-04-2026): bpt is no longer be maintained
 
 ## Screen Shots
+
+Here are a couple of screenshots of the game.
 
 ### Main Game
 
