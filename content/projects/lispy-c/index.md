@@ -11,7 +11,7 @@ tags = ["c", "interpreters", "lisp"]
 [extra]
 #images = [""]
 source = "https://codeberg.org/oraqlle/lispy"
-status = "Finished"
+status = "Complete"
 +++
 
 Lispy implementation in C.

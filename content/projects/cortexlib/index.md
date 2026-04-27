@@ -1,18 +1,17 @@
 +++
 title = "Cortex Library"
 description = "A library of general purpose types, classes, functions, algorithms, utilities and other components for C++."
-date = 2023-03-26
+date = 2022-07-08
 updated = 2023-06-22
 draft = false
 
 [taxonomies]
-tags = ["cpp"]
+tags = ["cpp", "library"]
 
 [extra]
-lead = "A library of general purpose types, classes, functions, algorithms, utilities and other components for C++."
-toc = true
-top = false
 #images = [""]
+source = "https://github.com/oraqlle/cortexlib"
+status = "Inactive"
 +++
 
 ## Development Status
@@ -22,8 +21,7 @@ testing meaning that meaning it could break. There is no promise for long-term s
 and may evolve without regard to backwards compatibility. That being said I do plan to
 stabilise the library more with time.
 
-- [GitHub](https://github.com/oraqlle/cortelib)
-- [Docs](https://oraqlle.github.io/cortexlib/)
+* [Docs](https://oraqlle.github.io/cortexlib/)
 
 ## Features
 
@@ -32,9 +30,9 @@ algorithms to concurrency tools and general utilities. Everything in Cortex is k
 within the `cxl` namespace and is broken down into three separate sub-libraries. These
 being:
 
-- **containers/. . .**
-- **iterators/. . .**
-- **utilities/. . .**
+* **containers/. . .**
+* **iterators/. . .**
+* **utilities/. . .**
 
 ### Containers
 
