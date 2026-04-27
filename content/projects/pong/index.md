@@ -10,7 +10,7 @@ tags = ["cpp", "game-dev"]
 
 [extra]
 images = ["main-game.png", "start-screen.png", "main-game-start.png", "pause-menu.png", "control-menu.png"]
-archived = true
+status = "Archived"
 source = "https://github.com/oraqlle/pong-broken"
 +++
 
@@ -18,7 +18,7 @@ Pong clone written in C++ using SFML and [Crank](/projects/crank).
 It was primarily built to test Crank, a simple state machine for small video games.
 It is built using a new build tool called [bpt](https://github.com/vector-of-bool/bpt).
 
-> Edit (26-04-2026): bpt is no longer be maintained
+* Edit (26-04-2026): bpt is no longer be maintained
 
 ## Screen Shots
 
