@@ -1,17 +1,19 @@
 +++
 title = "ymalloc"
-description = "Description"
+description = "Custom malloc function using free-list technique"
 date = 2026-04-27
 updated = 2026-04-27
 draft = true
 
 [taxonomies]
-tags = ["cpp"]
+tags = ["c", "posix", "memory", "library"]
 
 [extra]
 #images = [""]
-status = "Complete"
-source = ""
+source = "https://codeberg.org/oraqlle/ymalloc"
 +++
 
 
+## Credit
+
+TODO
