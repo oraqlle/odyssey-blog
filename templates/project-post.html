@@ -18,7 +18,7 @@
         {% if page.updated %}
           <li>
           <time class="s" datetime="{{ page.updated }}">
-            Edited &nbsp: {{ page.date | date(format='%d %b %Y')}}
+            Edited &nbsp: {{ page.updated | date(format='%d %b %Y')}}
           </time>
           </li>
         {% endif %}
@@ -50,9 +50,7 @@
       <footer class="s">
 
         Tags: {% for tag in page.taxonomies["tags"] %}
-        <a href='{{ config.base_url | safe }}/tags/{{ tag | slugify }}'>
-          {{ tag }}
-        </a>
+        <a href='{{ config.base_url | safe }}/tags/{{ tag | slugify }}'>{{ tag }}</a>
         {% if not loop.last %}, {% endif %}{% endfor %}
 
       </footer>
