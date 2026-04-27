@@ -1,18 +1,17 @@
 +++
 title = "Crank Framework"
-description = "A state management framework."
-date = 2023-03-17
-updated = 2023-06-22
+description = "A simple state management framework."
+date = 2023-02-15
+updated = 2025-04-14
 draft = false
 
 [taxonomies]
-tags = ["cpp"]
+tags = ["cpp", "oop", "game-dev"]
 
 [extra]
-lead = "A simple state management framework."
-toc = true
-top = false
 #images = [""]
+status = "Archived"
+source = "https://github.com/oraqlle/crank"
 +++
 
 Crank is a simple state management framework built in vanilla C++. It allows you to
@@ -23,10 +22,7 @@ Crank is designed to by as simple as possible and only provides a runtime framew
 managing states. It is not designed to be able to render images/displays or handle other
 forms of processing. This is implemented by the user by whatever means they choose.
 
-Crank is built using the [bpt](https://bpt.pizza) build tool and is hosted here.
-
-- [GitHub](https://github.com/oraqlle/crank)
-- [Docs - 🚧 Under Construction 🚧](...)
+Crank is built using the [bpt](https://bpt.pizza) build tool.
 
 ---
 
@@ -105,21 +101,6 @@ Here I will give a full implementation of a basic state and a main function that
 Here I have implemented the interface for the `basic` class. The main thing to notice is the use of the static self member and the `instance()` method.
 
 ```cpp
-/// -*- C++ -*- Header compatibility <basic.hxx>
-
-/// \brief 
-/// \file basic.hxx
-///
-/// author: Tyler Swann (tyler.swann05@gmail.com)
-///
-/// version: 0.2.0
-///
-/// date: 28-02-2023
-///
-/// copyright: Copyright (c) 2022-2023
-///
-/// license: MIT
-
 #ifndef BASIC_HPP
 #   define BASIC_HPP 1
 
@@ -416,7 +397,4 @@ Basic 1 - basic::cleanup()
 
 ## Example Projects
 
-Using Crank (along with SFML), I recreated Pong
-
-- [Pong - Project Page](../pong/)
-- [Pong - GitHub](https://github.com/oraqlle/pong)
+Using Crank (along with SFML), I recreated [Pong](/projects/pong).

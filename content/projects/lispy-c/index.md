@@ -1,25 +1,25 @@
 +++
 title = "Lispy"
-description = "Lispy"
-date = 2023-03-17
-updated = 2023-03-26
+description = "A simple interpreter for a Lisp-like language"
+date = 2023-03-22
+updated = 2026-04-27
 draft = false
 
 [taxonomies]
-tags = ["c", "interpreters"]
+tags = ["c", "interpreters", "lisp"]
 
 [extra]
-lead = "A Lispy Interpreter"
-toc = true
-top = false
 #images = [""]
+source = "https://codeberg.org/oraqlle/lispy"
+status = "Finished"
 +++
 
-Lispy implementation in C. Lispy is a small but robust programming language that inherits
-many features from Lisp. Lispy comes with an REPL as well as an interpreter. Like other
-Lisps, Lispy uses _macros-like_ objects called Q-expressions to build out unevaluated
-code whose structure and content can manipulated and later evaluated. Lispy is built
-using [bpt](https://bpt.pizza/docs/latest/index.html).
+Lispy implementation in C.
+
+Lispy is a small but robust programming language that inherits many features from Lisp.
+Lispy comes with an REPL as well as an interpreter. Like other Lisps, Lispy uses
+*macros-like* objects called Q-expressions to build out unevaluated code whose structure
+and content can manipulated and later evaluated.
 
 ## Example
 
@@ -45,14 +45,22 @@ using [bpt](https://bpt.pizza/docs/latest/index.html).
 (print (map fib {0 1 2 3 4 5 6 7 8 9}))
 ```
 
+## Running Files
+
 ```sh
-# Builds with bpt
-bpt build -t build.yaml -o build
-./build/bin/lispy ./examples/fib.lpy
-{0 1 1 2 3 5 8 13 21 34}
+$ ./build/dev/lispy_interpreter examples/hello.lpy
+"hello world!"
 ```
 
-- [Lispy - GitHub](https://github.com/oraqlle/lispy)
+## REPL
+
+```sh
+$ ./build/dev/lispy_interpreter
+Lispy v0.3.1
+Press Ctrl+D to exit.
+
+Lispy>
+```
 
 ## Credit
 
