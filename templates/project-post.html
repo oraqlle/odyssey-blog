@@ -8,23 +8,39 @@
         {% if page.draft %} (Draft){% endif %}
       </h1>
 
-      <time class="s" datetime="{{ page.date }}">
-        {{ page.date | date(format='%d %b %Y')}}
-      </time>
+      <ul class="s">
+        <li>
+          <time class="s" datetime="{{ page.date }}">
+            Written : {{ page.date | date(format='%d %b %Y')}}
+          </time>
+        </li>
+
+        {% if page.updated %}
+          <li>
+          <time class="s" datetime="{{ page.updated }}">
+            Edited &nbsp: {{ page.date | date(format='%d %b %Y')}}
+          </time>
+          </li>
+        {% endif %}
+
+        {% if page.extra.status %}
+          <li>
+            Status &nbsp: {{ page.extra.status | safe }}
+          </li>
+        {% endif %}
+
+        {% if page.extra.source %}
+          <li>
+            Source &nbsp: <a href='{{ page.extra.source | safe }}'>
+              {{ page.extra.source | safe }}
+            </a>
+          </li>
+        {% endif %}
+
     </header>
 
     {{ hooks::post_above_content(page=page) }}
 
-    {% if page.extra.archived %}[Archived Project]{% endif %}
-    <br>
-
-    {% if page.extra.source %}
-      <a href='{{ page.extra.source | safe }}'>
-        {{ page.extra.source | safe }}
-      </a>
-    {% endif %}
-    <br>
-    <br>
 
     {{ page.content | safe }}
 
