@@ -1,5 +1,5 @@
 +++
-title = "Lispy"
+title = "Lispy (C)"
 description = "A simple interpreter for a Lisp-like language"
 date = 2023-03-22
 updated = 2026-04-27
