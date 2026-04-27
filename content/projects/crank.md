@@ -1,7 +1,7 @@
 +++
 title = "Crank Framework"
 description = "A simple state management framework."
-date = 2023-02-15
+date = 2022-06-29
 updated = 2025-04-14
 draft = false
 

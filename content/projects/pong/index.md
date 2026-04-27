@@ -1,7 +1,7 @@
 +++
 title = "Pong Clone"
 description = " Built using SFML and my own Crank Framework"
-date = 2023-03-17
+date = 2023-03-09
 updated = 2026-04-26
 draft = false
 

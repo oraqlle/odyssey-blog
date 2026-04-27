@@ -1,7 +1,7 @@
 +++
 title = "Lispy (C)"
 description = "A simple interpreter for a Lisp-like language"
-date = 2023-03-22
+date = 2022-09-02
 updated = 2026-04-27
 draft = false
 
@@ -11,7 +11,6 @@ tags = ["c", "interpreters", "lisp"]
 [extra]
 #images = [""]
 source = "https://codeberg.org/oraqlle/lispy"
-status = "Complete"
 +++
 
 Lispy implementation in C.

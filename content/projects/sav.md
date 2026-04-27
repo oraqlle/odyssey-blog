@@ -10,7 +10,7 @@ tags = ["cpp", "visualizer", "algorithms"]
 
 [extra]
 #images = [""]
-status = "Inactive"
+status = "Broken"
 source = "https://codeberg.org/oraqlle/sorting-algorithm-visualizer"
 +++
 

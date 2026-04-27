@@ -1,7 +1,7 @@
 +++
 title = "Project Gallery"
 sort_by = "date"
-template = "gallery-ext.html"
+template = "projects-section.html"
 page_template = "project-post.html"
 +++
 
