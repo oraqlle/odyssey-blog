@@ -27,8 +27,7 @@ following structure.
 
 ![Example B-Tree Structure](btree-example-cstack-book.png)
 
-[Source: 'Part 7 - Introduction to the
-B-Tree'](https://cstack.github.io/db_tutorial/parts/part7.html)
+[Source: 'Part 7 - Introduction to the B-Tree'](https://cstack.github.io/db_tutorial/parts/part7.html)
 
 This is what the an example tree looks like when printed out using the `.btree` meta
 command.
@@ -40,6 +39,5 @@ command.
 
 ## Credit
 
-sqlmini is built following the online book ['Let's Build a Simple
-Database'](https://cstack.github.io/db_tutorial/) written by
-[cstack](https://github.com/cstack)
+sqlmini is built following the online book ['Let's Build a Simple Database'](https://cstack.github.io/db_tutorial/)
+written by [cstack](https://github.com/cstack).
