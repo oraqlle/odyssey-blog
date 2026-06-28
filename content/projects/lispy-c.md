@@ -10,6 +10,7 @@ tags = ["c", "interpreters", "lisp"]
 
 [extra]
 #images = [""]
+status = "Completed"
 source = "https://codeberg.org/oraqlle/lispy"
 +++
 
