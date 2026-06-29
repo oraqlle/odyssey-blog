@@ -1,6 +1,6 @@
 +++
 title = "Wolfenstein 3D Clone"
-description = "Description"
+description = ""
 date = 2025-06-12
 updated = 2026-06-28
 draft = false

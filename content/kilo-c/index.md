@@ -1,6 +1,6 @@
 +++
 title = "kilo-c"
-description = "Text Editor written 999 lines of C, inspired by nano"
+description = "nano like text editor written in 999 lines of C"
 date = 2025-11-25
 updated = 2026-06-28
 draft = false
