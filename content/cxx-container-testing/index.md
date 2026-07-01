@@ -1,6 +1,6 @@
 +++
 title = "Testing C++ Standard Library Containers"
-description = "Description"
+description = ""
 date = 2023-05-05
 updated = 2026-07-01
 draft = false
