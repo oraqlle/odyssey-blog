@@ -25,7 +25,9 @@
                (Draft)
             {% endif %}
 
-            :: {{ hooks::posts_below_title(page=post) }}
+            {% if post.description %}
+              :: {{ hooks::posts_below_title(page=post) }}
+            {% endif %}
           </div>
         </li>
         
