@@ -15,8 +15,8 @@ source = "https://codeberg.org/oraqlle/py-voxel-engine"
 +++
 
 A simple voxel rendering engine written in Pygame and ModernGL Python libraries used to
-make Minecraft like terrian and biomes. Generates terrain using a perling noise height
-map and features full Ambient Occlusion, face culling and render chunking. Player can fly
+make Minecraft like terrian and biomes. Generates terrain using a perlin noise height map
+and features full Ambient Occlusion, face culling and render chunking. Player can fly
 around the world and can break and place blocks.
 
 {{ image(src="view-on-ground.png", alt="View on the ground") }}
