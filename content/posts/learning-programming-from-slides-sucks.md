@@ -1,33 +1,39 @@
 +++
 title = "Learning Programming from Slides Sucks"
-date = 2022-06-07
+date = 2026-07-02
 [taxonomies]
-tags= ["thoughts", "learning", "programming", "teaching",
-    "Learning Programming from Slides Sucks"]
+tags= ["thoughts", "learning"]
 +++
 
-I'm currently a semester into my software engineering degree which has been very
-interesting; albeit a little easier due to having more experience than a lot of my peers
-it would appear, but I really hate trying to learn programming concepts from slides and
-PDFs. Almost always there are characters that are not ASCII and this causes the program
-to be wrong but are impossible to tell just be reading the text (hyphens are the worst).
-Some units use this platform called Edstem which is much better because it has proper
-codeblocks to copy and refer to but some just use regular documents.
+In my first year of university studying software engineering found it exceptionally
+difficult to learn programming concepts from slides. Not only was it using rich text
+format; which can be subtly problematic when pasting code or commands that expect pure
+ASCII characters, but it is also formatted in the most abysmal manner possible (no
+monospace, weird indentation etc.) making it hard to follow along in; idk, a whitespace
+pedantic language like Python.
 
-I've joined a student team called Monash DeepNeuron in their High Performance Programming
-branch who do some very cool things with supercomputers and even compete internationally!
+Given this was the status quo, students also showcased code in slide decks when teaching
+in extra curricular circles. In the student team I joined (Monash DeepNeuron), the
+usage of a `.` for current directory tripped me and a lot of my peers up when refering to
+the training slides.
 
-However, in the current training where we are learning Bash and Linux the trainers are
-using slides and there is often erroneous characters or characters we miss when copying
-commands especially the `.` when referring to current directory which makes the training
-very cumbersome as commands take a bit on the server we are training on. I've been using
-WSL for a while now so its not too bad, I still get stuck sometimes, but it seems to be a
-massive hindrance for the other trainees.
+Given this I wanted to find a better approach. I had learnt officially what markdown was
+and that GitHub rendered it in; an at least legible manner, so  when given the chance to
+teach my peers some C++ I developed it in markdown and hosted on GitHub.
 
-It'd be nice if there was a something like the Rust book the had to make this easier. I
-told this to the trainers, maybe they'll make something for the next round of recruits.
+Mid-way through teaching I started learning Rust from '*the book*' which was built using
+a tool called mdbook. I quickly took my hobble of markdown files and ported them to a
+markdown build (thank god, now I could test how it displayed/rendered locally).
 
-## Updates
+This was approach was much more receptive from my peers I was training so the team wanted
+me to lead an effort to port the baseline HPC training to a online book format. I was
+given some team members to help develop the content.
 
-* [Update #1](/posts/learning-programming-from-slides-sucks-update1)
-* [Update #2](/posts/learning-programming-from-slides-sucks-update2)
+This book aimed to teach some basic C, parallel and distributed computing and how to use
+the research cluster available to the student team. This book was very successful and
+gave new recruits a concrete resource to refer back to whenever they got stuck so I was
+very happy with the outcome. Since then it has been further developed by other HPC
+training leads of MDN to include OS and cloud computing concepts which is a testament to
+the open-content approach the book allows.
+
+Anyone, just wanted to yap. I think mdbook is pretty cool.

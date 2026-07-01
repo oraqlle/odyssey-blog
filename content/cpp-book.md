@@ -18,3 +18,6 @@ Book aimed at teaching C++. Currently massive work-in-progress and has slowly be
 developed over 3 years but nowhere near done. Anyway here the currently live version:
 
 * <https://oraqlle.github.io/cpp-book/>
+
+Currently documenting some progress and lore in the post
+[*"A Book to Learn C++"*](/posts/a-book-to-learn-cpp/).

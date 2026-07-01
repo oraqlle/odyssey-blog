@@ -6,7 +6,7 @@ updated = 2025-11-11
 tags= ["thoughts", "language-design"]
 +++
 
-> **2026-04-11 - Note:**
+> **Note (11/04/2026):**
 >
 > I have taken these notes and ideas from stuff I wrote in 2020/21. It is here for
 > archival purposes and because the idea is not abandoned (I've been quite busy at these

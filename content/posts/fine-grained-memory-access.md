@@ -54,10 +54,20 @@ from within a program to change its behaviour based on the available permissions
 could provide solutions to potential really hard to solve problems unavailable otherwise
 but could be queried at compile time by systems like C++ templates or Zig comptime.
 
-* [Update #1](/posts/fine-grained-memory-access-update1)
-
 [thread #12283]: https://ziggit.dev/t/can-we-simulate-rust-like-traits-in-zig-to-add-methods-to-a-struct/12283
 [remark from floooh]: https://ziggit.dev/t/can-we-simulate-rust-like-traits-in-zig-to-add-methods-to-a-struct/12283/8?u=oraqlle
 
 [^1]: https://en.wikipedia.org/wiki/File-system_permissions#UNIX_and_Unix-like_systems
 [^2]: https://en.wikipedia.org/wiki/Tagged_pointer
+
+## Update #1 (21/02/2026)
+
+When doing completely unrelated work, I was pointed in the direction of something called
+*Capability Hardware Enhanced RISC* or [CHERI] which looks to add metadata to pointers
+that control what instructions are able to operate on the data.
+
+This is pretty cool piece of technology because it embeds it directly in the hardware of
+CPUs, allowing already existing software to benefit from it however, it would still be of
+value to have some control over it in a high level language like C, Zig or C++.
+
+[CHERI]: https://en.wikipedia.org/wiki/Capability_Hardware_Enhanced_RISC_Instructions
